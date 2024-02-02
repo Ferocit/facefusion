@@ -125,7 +125,7 @@ WORDING =\
 	'temp_frame_quality_slider_label': 'TEMP FRAME QUALITY',
 	'trim_frame_start_slider_label': 'TRIM FRAME START',
 	'trim_frame_end_slider_label': 'TRIM FRAME END',
-	'source_file_label': 'SOURCE',
+	'source_file_label': 'FACE',
 	'target_file_label': 'TARGET',
 	'webcam_image_label': 'WEBCAM',
 	'webcam_mode_radio_label': 'WEBCAM MODE',

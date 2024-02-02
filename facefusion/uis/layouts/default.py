@@ -18,6 +18,8 @@ def render() -> gradio.Blocks:
 				with gradio.Blocks():
 					about.render()
 				with gradio.Blocks():
+					output.render()
+				with gradio.Blocks():
 					frame_processors.render()
 					frame_processors_options.render()
 				with gradio.Blocks():
@@ -32,11 +34,9 @@ def render() -> gradio.Blocks:
 					output_options.render()
 			with gradio.Column(scale = 2):
 				with gradio.Blocks():
-					source.render()
-				with gradio.Blocks():
 					target.render()
 				with gradio.Blocks():
-					output.render()
+					source.render()
 			with gradio.Column(scale = 3):
 				with gradio.Blocks():
 					preview.render()
